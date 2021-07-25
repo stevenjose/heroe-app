@@ -57,14 +57,22 @@ export const SearchScreen = ({history}) => {
       </div>
       <div className="col-8">
         <h3>Result</h3>
+        < hr />
         <div className="card-deck animate_animated animate__fadeOut">
+          <div className="row">
+          {
+            (heoresFilter.length === 0) &&
+            <alert className="alert alert-danger"> Hero not found </alert>
+          }
+          </div>
+         
           <div className="row no-gutters">
             {heoresFilter.map((hero) => (
               <CardHero key={hero.id} {...hero} />
             ))}
           </div>
         </div>
-        <hr />
+    
       </div>
     </div>
   );
