@@ -7,7 +7,6 @@ export const DcScreen = () => {
     return (
         <div>
             <h2> DC Screen</h2>
-            { dc }
             <HeroList publisher={dc}/>
         </div>
     )
