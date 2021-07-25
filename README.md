@@ -2,7 +2,7 @@
 
 App React practica que ejecuta el React Router, diferentes Hook entre ellos useMemo, UseState, entre otros. Implementa tambien un buscador con rutas protegidas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test unitarios con Jest.
 
 ## Available Scripts
 
