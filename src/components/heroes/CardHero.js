@@ -14,7 +14,7 @@ export const CardHero = ({
       <div className="card ms-3">
         <img
           className="card-img-top"
-          src={`./heroe-app/assets/heroes/${id}.jpg`}
+          src={`./assets/heroes/${id}.jpg`}
           alt={publisher}
         />
         <div className="card-body">

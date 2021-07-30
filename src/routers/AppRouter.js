@@ -20,7 +20,7 @@ export const AppRouter = () => {
             <Switch>
                 <PublicRouter 
                   exact
-                  path="/login" 
+                  path="/heroe-app/login" 
                   component={ LoginScreen } 
                   isAuthenticated={user.logged}
                 />

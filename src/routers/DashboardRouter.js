@@ -12,14 +12,14 @@ export const DashboardRouter = () => {
       <Navbar />
       <div className="container">
         <Switch>
-          <Route exact path="/marvel" component={MarvelScreen} />
+          <Route exact path="/heroe-app/marvel" component={MarvelScreen} />
           //TODO ruta que recibe parametros
-          <Route exact path="/hero/:heroeId" component={HeroScreen} />
-          <Route exact path="/dc" component={DcScreen} />
-          <Route exact path="/hero/{$id}" component={DcScreen} />
-          <Route exact path="/search" component={SearchScreen} />
+          <Route exact path="/heroe-app/hero/:heroeId" component={HeroScreen} />
+          <Route exact path="/heroe-app/dc" component={DcScreen} />
+          <Route exact path="/heroe-app/hero/{$id}" component={DcScreen} />
+          <Route exact path="/heroe-app/search" component={SearchScreen} />
 
-          <Route exact path="/" component={MarvelScreen} />
+          <Route exact path="/heroe-app/" component={MarvelScreen} />
         </Switch>
       </div>
     </>

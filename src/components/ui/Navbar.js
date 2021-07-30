@@ -18,7 +18,7 @@ export const Navbar = () => {
         logged: false,
       },
     });
-    history.replace("/login");
+    history.replace("/heroe-app/login");
   };
 
   return (
@@ -45,7 +45,7 @@ export const Navbar = () => {
                 activeClassName="active"
                 className="nav-item nav-link"
                 exact
-                to="/marvel"
+                to="/heroe-app/marvel"
               >
                 Marvel
               </NavLink>
@@ -55,7 +55,7 @@ export const Navbar = () => {
                 activeClassName="active"
                 className="nav-item nav-link"
                 exact
-                to="/dc"
+                to="/heroe-app/dc"
               >
                 DC
               </NavLink>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                 activeClassName="active"
                 className="nav-item nav-link"
                 exact
-                to="/search"
+                to="/heroe-app/search"
               >
                 Search
               </NavLink>
