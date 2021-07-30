@@ -37,5 +37,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Heroe App React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heore-app"
+  },
+  "keywords": [
+    "Gresume",
+    "react",
+    "jsx"
+  ],
+  "author": "Jose Lopez lopezajoseg@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heroe-app"
+  },
+  "homepage": "https://github.com/heroe-app",
+  "devDependencies": {
+    "redux-mock-store": "^1.5.4"
   }
 }
