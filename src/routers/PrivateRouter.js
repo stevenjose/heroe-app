@@ -15,7 +15,7 @@ export const PrivateRouter = ({
             component={ (props) => (
                 ( isAuthenticated ) 
                 ? (<Component { ...props }/>)
-                : ( <Redirect to="heroe-app/login" />)
+                : ( <Redirect to="/heroe-app/login" />)
         
             )}
         />

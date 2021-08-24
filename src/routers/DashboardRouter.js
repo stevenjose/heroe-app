@@ -19,7 +19,7 @@ export const DashboardRouter = () => {
           <Route exact path="/heroe-app/hero/{$id}" component={DcScreen} />
           <Route exact path="/heroe-app/search" component={SearchScreen} />
 
-          <Route exact path="/heroe-app/" component={MarvelScreen} />
+          <Route to="/heroe-app/marvel" />
         </Switch>
       </div>
     </>
