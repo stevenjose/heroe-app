@@ -18,7 +18,7 @@ export const Navbar = () => {
         logged: false,
       },
     });
-    history.replace("/heroe-app/login");
+    history.replace("./login");
   };
 
   return (
